@@ -9,21 +9,22 @@
     height: 100vh;
     width: 100%;
     background-image: url(/wall.avif);
-    background-size: 17cm;
+    background-size: 52cm;
     background-position: center;
+    background-repeat: no-repeat;
 }
 nav{
-    display: flex;
-    align-items: center;
+    display: inline-flex;
+    align-items: initial;
     justify-content: space-between;
     padding-top: 1px;
-    padding-left: 1px;
+    padding-left: 13px;
     padding-right: 0%;
 }
 .logo{
     color: white;
-    font-size: 10px;
-    letter-spacing: 1px;
+    font-size: 23px;
+    letter-spacing: 2px;
     cursor: pointer;
 }
 span{
@@ -32,27 +33,29 @@ span{
 nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 8px 2px;
+    padding: 15px 45px;
 }
 nav ul li a{    
-    font-size: 7px;
+    font-size: 18px;
     color:#00FFFF;
     text-decoration: none;
     font-weight: bolder;
     text-transform: capitalize;
+    margin-left: 50px;
 }
 nav ul li a:hover{
     color: #f9004d;
     transition: .5s;
 }
 nav a{
-    font-size: 13px;
+    font-size: 20px;
     padding: 2px;
     color: #6f00ff;
     text-decoration: none;
     font-weight: bolder;
     border-radius: 20px;
     transition: transform .4s;
+    margin-left: 60px;
 }
 nav a:hover{
     transform: scale(1.2);
@@ -61,7 +64,7 @@ nav a:hover{
 }
 .content{
     position: absolute;
-    top: 105%;
+    top: 101%;
     left: 0%;
     transform: translateY(-49.6%);
 }
@@ -77,14 +80,14 @@ h3{
 }
 h1{
     color: rgba(161, 4, 161, 0.8);
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     font-size: 20px;
 }
 h4{
     color: rgba(231, 30, 4, 0.8);
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .newlatter form{
     width: 100px;
@@ -94,7 +97,7 @@ h4{
 .newslatter form input:first-child{
     display: inline-block;
     width: 35%;
-    padding: 2px 10px 1px 20px;    
+    padding: 8px 10px 11px 4px;    
     border: 2px solid #00FFFF;
     outline: none;
     border-radius: 30px;
@@ -104,25 +107,25 @@ h4{
     display: inline-block;
     outline: none;
     border: none;
-    padding: 1px 2px;
+    padding: 6px 2px;
     border-radius: 9px;
     background-color: #f9004d;
     cursor: pointer;
     color:aliceblue;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-	top: 124px;
-	right: 394px; 
+	top: 134px;
+	right: 475px; 
 }
 .about{
 	width: 100%;
-	padding: 1px 1px 0px;
+	padding: 4px 0px 5px;
     
 }
 .about img{
 	height: auto;
-	width: 100px;
-    position: relative;
-    right: 1px;
+	width: 105px;
+    position: static;
+    margin-left: -78px;
     
 }
 .about-text{
@@ -145,10 +148,10 @@ h2{
 }
 .about-text img{
     position: absolute;
-    top: 269px;
-    right: 450px;
+    top: 290px;
+    right: 527px;
     height: 53px;
-    width: 50px;
+    width: 57px;
    
 
 }
@@ -156,12 +159,17 @@ h2{
     padding: 1px 3px;
     border-radius: 1px 10px 1px;
     cursor: pointer;
-    box-shadow: 0px 40px 5px #000, 0px 0px 15px #858585;    
-    top: 301px;
-    right: 388px;
+    box-shadow: 0px 20px 80px #000, 0px 0px 1px #858585;    
+    top: 314px;
+    right: 460px;
     position: absolute; 
 }
 
+p{
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
 
 
 
